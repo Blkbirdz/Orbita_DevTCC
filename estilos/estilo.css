@@ -1,0 +1,58 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    text-align: center;
+    padding: 50px;
+    background-color: lightgray;
+}
+
+.signInUp {
+    background-color: white;
+    width: 400px;
+    margin: 30px auto;
+    line-height: 2;
+    font-size: 20px;
+}
+
+#toSignIn, #toSignUp {
+    font-size: 1.5rem;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 2px 0px 0px;
+}
+
+#toSignIn:hover, #toSignUp:hover {
+    background-color: rgb(150, 92, 186);
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px black;
+    transition: 0.5s;
+}
+
+#toSignIn:active, #toSignUp:active {
+    box-shadow: none;
+}
+
+input {
+    padding:2px;
+    font-size: 15px
+}
+
+button:not(#toSignIn):not(#toSignUp) {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+button:not(#toSignIn):not(#toSignUp):hover {
+    background-color: rgb(150, 92, 186);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
