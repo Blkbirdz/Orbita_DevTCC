@@ -17,6 +17,7 @@ body {
     margin: 30px auto;
     line-height: 2;
     font-size: 20px;
+    border-radius: 20px;
 }
 
 #toSignIn, #toSignUp {
@@ -48,6 +49,7 @@ button:not(#toSignIn):not(#toSignUp) {
     font-size: 1.5rem;
     padding: 10px;
     border-radius: 16px;
+    margin-bottom: 20px;
 }
 
 button:not(#toSignIn):not(#toSignUp):hover {
