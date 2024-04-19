@@ -9,9 +9,37 @@
 </head>
 <body>
     <h1 style="font-size: 50px;">Orbita Dev</h1>
-    <div id="divSignIn" class="signInUp"></div>
-    <div id="divSignUp" class="signInUp"></div>
-    
+
+    <!-- Div de Login -->
+    <div id="divSignIn" class="signInUp">
+        <h1>Entrar na conta</h1>
+        <button id="toSignUp">Não possuo conta</button>
+        <form>
+            <span id="lbEmail">Email:</span> <input type="text" name="LOGINemail" placeholder="seu.email@email.com" id="LOGINemail">
+            <br>
+            <span id="lbPassword">Senha:</span> <input style="margin-bottom: 20px;" type="text" name="LOGINpassword" id="LOGINpassword">
+            <br>
+            <button id="btnRegistro">Entrar</button>
+            <button id="btnRegistro">Entrar com Google</button>
+            <br>
+            <button id="btnRecuperar">Recuperar Conta</button>
+        </form>
+    </div>
+
+    <!-- Div de Registro -->
+    <div id="divSignUp" class="signInUp">
+        <h1>Registre-se</h1>
+        <button id="toSignIn">Já possuo conta</button>
+        <form>
+            <span id="lbEmail" name="lbEmail">Email:</span> <input type="text" name="REGemail" placeholder="seu.email@email.com" id="REGemail">
+            <br>
+            <span id="lbPassword">Senha:</span> <input type="text" name="REGpassword" id="REGpassword">
+            <br>
+            <span id="lbConfirmPassword">Confirmar senha:</span> <input type="text" name="REGconfirmPassword" id="REGconfirmPassword">
+            <button id="btnRegistro">Registrar</button>
+        </form>
+    </div>
+
     <script src="scripts/toSignInUp.js"></script>
 </body>
 </html>
